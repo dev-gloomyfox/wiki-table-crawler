@@ -26,7 +26,7 @@ repos:
         entry: pylint
         types:
           - python
-        language: system
+        language: python
         args:
           - --rcfile=pyproject.toml
   - repo: local
@@ -50,7 +50,7 @@ repos:
           - commit
         types:
           - python
-        language: system
+        language: python
         pass_filenames: false
         always_run: true
         args:

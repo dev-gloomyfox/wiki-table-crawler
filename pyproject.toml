@@ -25,7 +25,7 @@ testpaths = "tests"
 filterwarnings = "error"
 addopts = """
 --strict-markers
---cov=app_name
+--cov=wiki_table_crawler
 --cov-report=html
 --no-cov-on-fail
 --cov-fail-under=100
